@@ -18,6 +18,14 @@ class ThemisContract < Formula
     bin.install "build/themis-contract"
   end
 
+  def caveats
+    <<-EOS.undent
+      A LaTeX distribution that includes `pdflatex` is required.
+      If one is not already installed, then we recommend:
+        brew install --cask mactex
+    EOS
+  end
+
   test do
     system "#{bin}/themis-contract", "version"
   end
