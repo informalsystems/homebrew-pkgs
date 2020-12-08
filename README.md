@@ -1,5 +1,7 @@
 # Informalsystems Pkgs
 
+Homebrew packages maintained by [informal.systems](https://informal.systems/).
+
 ## How do I install these formulae?
 `brew install informalsystems/pkgs/<formula>`
 
