@@ -19,7 +19,7 @@ class ThemisContract < Formula
   end
 
   def caveats
-    <<-EOS.undent
+    <<-EOS
       A LaTeX distribution that includes `pdflatex` is required.
       If one is not already installed, then we recommend:
         brew install --cask mactex
