@@ -22,7 +22,8 @@ class ThemisContract < Formula
     <<-EOS
       A LaTeX distribution that includes `pdflatex` is required.
       If one is not already installed, then we recommend:
-        brew install --cask mactex
+
+        brew cask install basictex
     EOS
   end
 
